@@ -1,2 +1,2 @@
-from myfitness.summary import maxmin
-#from myfitness.summary import maxmin.getMin
+from myfitness.summary import maxmin.getMax
+from myfitness.summary import maxmin.getMin

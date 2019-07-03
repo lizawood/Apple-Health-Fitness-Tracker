@@ -1,5 +1,5 @@
 
-# myfitness: Apple Health Fitness Tracker
+# `myfitness`: Tools to Analyze Apple Health Data
 
 ---
 
