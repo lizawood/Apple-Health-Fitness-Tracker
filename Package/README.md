@@ -81,7 +81,7 @@ Detailed descriptions  of the `maxMin` module in the `summary` subpackage is sho
 
 `myfitness_tests` contains the necessary test suite and classes to verify that the package is working correctly. There are a total of four classes that conduct unit testing as well as the suite.
 
-Test Suite Coverge Report ![Coverage Report](https://github.com/LevanniaLildhar/DATA533_lab4_Liza_Levannia/blob/master/TestSuiteCoverageScreenShoot.png)
+Test Suite Coverge Report ![Coverage Report](https://github.com/lizawood/Apple-Health-Fitness-Tracker/blob/master/Source/TestSuiteCoverageScreenShoot.png)
 
 ## Requirements
 

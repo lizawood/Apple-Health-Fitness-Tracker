@@ -7,37 +7,37 @@ Build_Stamp [![Build Status](https://travis-ci.org/LevanniaLildhar/DATA533_lab4_
 
 ---
 
-## Package Topic Selection 
+## Package Topic Selection
 
-This repository contains the lab 4 submission for Liza Wood and Levannia Lildhar. 
+The Apple Health Fitness Tracker was a collaborative project by Liza Wood and Levannia Lildhar.
 
 The package written is titled `myfitness`
     - This package provides some basic tools to analyze the health data in a csv file downloaded from Apple Health. These tools could be used to analyze and compare the data from multiple people.
-    
-`healthdata` 
+
+`healthdata`
 - contains two modules
     1. `data` - contains the name, age and gender of the person (the "superclass") and a method to read in the csv health data file using pandas
     2. `chart` - uses pygal to provide an interactive bar chart to the user
 
 `summary`
-- contains two modules 
+- contains two modules
     1. `table` - returns a summarized dataframe of average steps per month
     2. `maxmin`- contains functions to calculate the maximum and minimum number of steps
-    
+
 ## Package Structure
 
 `myfitness` --> package
-  
+
   -- `healthdata` --> sub-package
-  
+
    --`data` --> module
-    
+
    --`chart` -->module
-  
+
   -- `summary` --> sub-package
-    
+
    --`table` --> module
-    
+
    --`maxmin` --> module
 
 ## Package Details
@@ -45,14 +45,14 @@ The package written is titled `myfitness`
 The package functions of `myfitness` are described below. The use of the package is also demonstrated in the test file included in this repositry.
 
 `healthdata`
-This subpackage is meant to provide users a method of importing data as well as viewing the data interactively. 
+This subpackage is meant to provide users a method of importing data as well as viewing the data interactively.
 
 Detailed descriptions of the `data` module in the `healthdata` subpackage is shown below:  
 
 | Module        | Description                                                            | Parameters        | Return                  |
 | -------------  |:------------------------------------------------------------------:   | :----------------:|:-----------------------:|
 | `__init__`     | Create an object of class Person() to be used in further analysis. This is the superclass | name, age, gender |An object of class Person|
-| `display`      | Displays the name, age and gender of a Person() object                | Person() object   | Attributes name, age, and gender| 
+| `display`      | Displays the name, age and gender of a Person() object                | Person() object   | Attributes name, age, and gender|
 | `healthdata`   | Create a object of class healthdata() this inherits from the superclass Person()| name, age, gender, file (downloaded from Apple Health, as csv) | Display of healthdata object attributes name, age, gender and dataframe containing healthdata() object file|
 
 Detailed descriptions of the  `chart` module in the `healthdata` subpackage is shown below:  
@@ -75,21 +75,19 @@ Detailed descriptions  of the `maxMin` module in the `summary` subpackage is sho
 | Module        | Description                                                            | Parameters        | Return                  |
 | -------------  |:------------------------------------------------------------------:   | :----------------:|:-----------------------:|
 | `getMax`     | Find the maximum number of steps in the data and the date it was achieved. | data: Pandas DataFrame containing Apple Health data imported from a .csv file.|The row of values for when the maximum number of steps were achieved:Start date, Finish date,Distance(mi), Steps (count)|
-| `getMin`      |Find the maximum number of steps in the data and the date it was achieved.|data: Pandas DataFrame containing Apple Health data imported from a.csv file. |The row of values for when the maximum number of steps were achieved:Start date, Finish date, Distance(mi), Steps (count)| 
+| `getMin`      |Find the maximum number of steps in the data and the date it was achieved.|data: Pandas DataFrame containing Apple Health data imported from a.csv file. |The row of values for when the maximum number of steps were achieved:Start date, Finish date, Distance(mi), Steps (count)|
 
 ## Testing
 
-`myfitness_tests` contains the necessary test suite and classes to verify that the package is working correctly. There are a total of four classes that conduct unit testing as well as the suite. 
+`myfitness_tests` contains the necessary test suite and classes to verify that the package is working correctly. There are a total of four classes that conduct unit testing as well as the suite.
 
-Test Suite Coverge Report ![Coverage Report](https://github.com/LevanniaLildhar/DATA533_lab4_Liza_Levannia/blob/master/TestSuiteCoverageScreenShoot.png)
+Test Suite Coverge Report ![Coverage Report](https://github.com/lizawood/Apple-Health-Fitness-Tracker/blob/master/Source/TestSuiteCoverageScreenShoot.png)
 
-## Requirements 
+## Requirements
 
 This package requires the following Python modules:
 
 - numpy
-- pandas 
-- pygal 
+- pandas
+- pygal
 - IPython
-
-
