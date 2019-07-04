@@ -1,18 +1,9 @@
 
 # `myfitness`: Tools to Analyze Apple Health Data
 
----
-
-Build_Stamp [![Build Status](https://travis-ci.org/LevanniaLildhar/DATA533_lab4_Liza_Levannia.svg?branch=master)](https://travis-ci.org/LevanniaLildhar/DATA533_lab4_Liza_Levannia)
-
----
-
-## Package Topic Selection
-
 The Apple Health Fitness Tracker was a collaborative project by Liza Wood and Levannia Lildhar.
 
-The package written is titled `myfitness`
-    - This package provides some basic tools to analyze the health data in a csv file downloaded from Apple Health. These tools could be used to analyze and compare the data from multiple people.
+The package, `myfitness`, provides some basic tools to analyze the health data in a csv file downloaded from Apple Health. These tools could be used to analyze and compare the data from multiple people.
 
 `healthdata`
 - contains two modules
