@@ -91,3 +91,4 @@ This package requires the following Python modules:
 - pandas
 - pygal
 - IPython
+- CairoSVG
